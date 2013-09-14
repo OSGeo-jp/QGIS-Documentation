@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGIS Documentation Project 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-26 14:10\n"
+"POT-Creation-Date: 2013-09-14 16:42\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -323,40 +323,4 @@ msgid ""
 "The two deployment models can be mixed - deploy standalone application on "
 "Windows and Mac OS X, for Linux leave the installation of QGIS up to user "
 "and his package manager."
-msgstr ""
-
-# 7618307912804b36bb2309fe8421c44e
-#: ../../source/docs/pyqgis_developer_cookbook/00_intro.rst:34
-msgid "API"
-msgstr ""
-
-# ab435daa8e204666996ba60c5de0f36b
-# 24fae486ed1342aa82a7b5747d5d52fa
-# 0d976fcc49854133b0564d925efc0f6c
-#: ../../source/docs/pyqgis_developer_cookbook/00_intro.rst:46
-#: ../../source/docs/pyqgis_developer_cookbook/00_intro.rst:80
-#: ../../source/docs/pyqgis_developer_cookbook/00_intro.rst:100
-msgid "Python"
-msgstr ""
-
-# ab435daa8e204666996ba60c5de0f36b
-#: ../../source/docs/pyqgis_developer_cookbook/00_intro.rst:46
-msgid "console"
-msgstr ""
-
-# 24fae486ed1342aa82a7b5747d5d52fa
-#: ../../source/docs/pyqgis_developer_cookbook/00_intro.rst:80
-msgid "plugins"
-msgstr ""
-
-# 0d976fcc49854133b0564d925efc0f6c
-# 5527ad92f6c44fbdad67b7b73027c546
-#: ../../source/docs/pyqgis_developer_cookbook/00_intro.rst:100
-#: ../../source/docs/pyqgis_developer_cookbook/00_intro.rst:150
-msgid "custom applications"
-msgstr ""
-
-# 5527ad92f6c44fbdad67b7b73027c546
-#: ../../source/docs/pyqgis_developer_cookbook/00_intro.rst:150
-msgid "running"
 msgstr ""

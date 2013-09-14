@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGIS User Guide 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-26 14:10\n"
+"POT-Creation-Date: 2013-09-14 16:42\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -157,14 +157,4 @@ msgid ""
 "selection as -->` to define the name of the output file, its format and CRS "
 "(see Section :ref:`label_legend`). It is also possible to specify OGR "
 "creation options within the dialog."
-msgstr ""
-
-# 0cc8d9d1b7d2479eb71cf16c87866daa
-#: ../../source/docs/user_manual/working_with_vector/query_builder.rst:9
-msgid "Query_Builder"
-msgstr ""
-
-# a47d1251f82e43e79bd5595ca52bbebe
-#: ../../source/docs/user_manual/working_with_vector/query_builder.rst:81
-msgid "Select_using_Query"
 msgstr ""

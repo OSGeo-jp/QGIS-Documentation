@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGIS User Guide 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-26 13:59\n"
+"POT-Creation-Date: 2013-09-14 16:42\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,145 +107,49 @@ msgstr ""
 msgid ":ref:`Show the case studies <QGIS-case-studies>`"
 msgstr ""
 
-# 687bd7b911d740228e519617c947c866
-#: ../../source/index.rst:113
-msgid "Screenshots"
-msgstr ""
-
-# 36d0314d4bf149b5836c9241e75c7599
-#: ../../source/index.rst:115
-msgid ""
-"A picture is worth a thousand words - take a look at some screenshots! :ref:"
-"`View screenshots <QGIS-screenshots>`"
-msgstr ""
-
 # cec20fb3a37a4f3f8469bf31e1ddeed3
-#: ../../source/index.rst:124
+#: ../../source/index.rst:113
 msgid "Download"
 msgstr ""
 
 # 9acbff44baeb4b298472405b3d40133a
-#: ../../source/index.rst:126
+#: ../../source/index.rst:115
 msgid ""
 "You can download the latest version of QGIS :ref:`here <QGIS-download>`."
 msgstr ""
 
 # 3295e6ff3f024f14b39523e6a7da14e3
-#: ../../source/index.rst:129
+#: ../../source/index.rst:118
 msgid "|qgissplash|"
 msgstr "|qgissplash|"
 
-# 76f1bcd95df6448c8ee099daae4631cb
-#: ../../source/index.rst:133
-msgid "News"
-msgstr ""
-
-# 5582c1a57e7a49869f9e6c415638e61d
-#: ../../source/index.rst:135
-msgid ""
-"People are writing QGIS related blogs everywhere. We aggregate the content "
-"from a number of QGIS bloggers here: `Planet blog <http://plugins.qgis.org/"
-"planet/>`_."
-msgstr ""
-
 # e35a8c34f4bc4fbfa0c862be28265be2
-#: ../../source/index.rst:141
+#: ../../source/index.rst:122
 msgid "User Manual"
 msgstr ""
 
 # 2889c5ef17b3460db5a50349df69ad64
-#: ../../source/index.rst:143
+#: ../../source/index.rst:124
 msgid ""
 "The user manual for the stable version can be found here: `QGIS Manual "
 "stable version (1.8) <http://docs.qgis.org/1.8/html/en/>`_."
 msgstr ""
 
 # 54863615a0c74e979696e2251be1bfdb
-#: ../../source/index.rst:146
+#: ../../source/index.rst:127
 msgid ""
 "Please go to :ref:`The QGIS User Manual <QGIS-manual-index-reference>` to "
 "see the manual for current development version."
 msgstr ""
 
-# 81d3e497a699493481d07f5e8c5ca634
-#: ../../source/index.rst:152
-msgid "Case Studies"
+# 51d7be52164b46d0bf4a33cf279015ce
+#: ../../source/index.rst:131
+msgid "Documentation"
 msgstr ""
 
-# 5ddc8b84793c487fafe8dd2b62414b7c
-#: ../../source/index.rst:154
-msgid ""
-"QGIS is used all over the world in real-world situations. You can read case "
-"studies submitted by a number of our users here: :ref:`find some cases here "
-"<QGIS-case-studies>` from our users"
-msgstr ""
-
-# f600675ab8c74936851f9dc7d36999f1
-#: ../../source/index.rst:161
-msgid "Sponsorship"
-msgstr ""
-
-# 5121582af5d44ac0ba6f947d4f13f197
-#: ../../source/index.rst:163
-msgid ""
-"Do you want to help QGIS by helping to fund its development? Please consider "
-"a donation (large or small contributions are welcome!):"
-msgstr ""
-
-# afeac243d2e840d0b6276ec82d955d06
-#: ../../source/index.rst:168
-msgid ""
-"If you would like to become and official sponsor, please consider "
-"participating in our :ref:`sponsorship programme<QGIS-sponsoring>`."
-msgstr ""
-
-# 549c96da31e24ba4a0c70e0aebe79630
-#: ../../source/index.rst:173
-msgid "Support"
-msgstr ""
-
-# cff58e4da2024361b95019c5238fa425
-#: ../../source/index.rst:175
-msgid ""
-"There are many companies around the world providing commercial support for "
-"QGIS - you can find a detailed list here: :ref:`commercial support providers "
-"<QGIS-commercial_support>`."
-msgstr ""
-
-# 46a2fe28741f4e57b597568d7cc097ba
-#: ../../source/index.rst:181
-msgid "Bugs"
-msgstr ""
-
-# 249ac33516ff4f8b8b9f5bd7a7003887
-#: ../../source/index.rst:183
-msgid "Have you found a bug in the software, documentation or a translation?"
-msgstr ""
-
-# 444baef88bf3439b9122847fa521a12c
-#: ../../source/index.rst:185
-msgid ""
-"Please go to http://hub.qgis.org/projects/quantum-gis and tell us about it!"
-msgstr ""
-
-# 52749e52a7704c1a9bf2247e8a7ff214
-#: ../../source/index.rst:189
-msgid "Development"
-msgstr ""
-
-# eb2c375e359b4d1eb08d4948d7e55f2e
-#: ../../source/index.rst:191
-msgid ""
-"If you are a developer and wish to build QGIS from source, detailed "
-"instructions are provided here in `the installation guide <https://github."
-"com/qgis/Quantum-GIS/blob/master/INSTALL>`_."
-msgstr ""
-
-# fba92e76f7074b4bb2fe7b649ec22145
-#: ../../source/index.rst:195
-msgid ""
-"If you are interested in python plugin development you can visit our QGIS "
-"python `plugins page <http://plugins>`_."
+# ed25ce0032094edf804b1698fcfe3958
+#: ../../source/index.rst:133
+msgid "Other docs can be found on the :ref:`Documenation site <docs/index>`"
 msgstr ""
 
 # c3adcba009c14cfab658c80f33c9dc15

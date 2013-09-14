@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGIS User Guide 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-26 14:10\n"
+"POT-Creation-Date: 2013-09-14 16:42\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -608,9 +608,4 @@ msgid ""
 "After all GCPs have been collected and all transformation settings are "
 "defined, just press the button |mActionStartGeoref| :sup:`Start "
 "georeferencing` to create the new georeferenced raster."
-msgstr ""
-
-# 0a3a153b3d3541519dc80063ef85aba0
-#: ../../source/docs/user_manual/plugins/plugins_georeferencer.rst:22
-msgid "Georeferencer tools"
 msgstr ""

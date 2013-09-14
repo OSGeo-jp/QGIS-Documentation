@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGIS Documentation Project 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-26 14:10\n"
+"POT-Creation-Date: 2013-09-14 16:42\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -411,8 +411,3 @@ msgstr ""
 "多角形 - 複数のラインが2点以上の連続で並び,最後の点が最初の点と等しい場合を多"
 "角形とします.三角形,円,四角形,etcはすべて多角形です. 多角形の特徴は固定領域が"
 "内部にあることです."
-
-# a7ee27e787504146a4badefc25bd6e82
-#: ../../source/docs/user_manual/preamble/foreword.rst:39
-msgid "documentation"
-msgstr ""

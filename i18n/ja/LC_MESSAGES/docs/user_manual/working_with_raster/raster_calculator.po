@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGIS User Guide 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-26 14:10\n"
+"POT-Creation-Date: 2013-09-14 16:42\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -112,9 +112,4 @@ msgstr ""
 msgid ""
 "For every cell greater than or equal to 0, set its value to 1, otherwise set "
 "it to 0. This creates the mask on the fly."
-msgstr ""
-
-# 8436b804efc147d295af561a0a790a43
-#: ../../source/docs/user_manual/working_with_raster/raster_calculator.rst:14
-msgid "Raster_Calculator"
 msgstr ""

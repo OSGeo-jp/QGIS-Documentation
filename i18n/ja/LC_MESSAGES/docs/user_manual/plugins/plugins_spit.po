@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGIS Documentation Project 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-26 14:10\n"
+"POT-Creation-Date: 2013-09-14 16:42\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,14 +68,4 @@ msgid ""
 "each field. You can edit the field names prior to import and change any that "
 "are reserved words (or change any other field names as desired). Attempting "
 "to import a shapefile with reserved words as field names will likely fail."
-msgstr ""
-
-# f85c81c6c4e4445a9f3579c86c46b4fe
-#: ../../source/docs/user_manual/plugins/plugins_spit.rst:9
-msgid "SPIT"
-msgstr ""
-
-# f85c81c6c4e4445a9f3579c86c46b4fe
-#: ../../source/docs/user_manual/plugins/plugins_spit.rst:9
-msgid "Shapefile_to_Postgis_Import_Tool"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGIS User Guide 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-26 14:10\n"
+"POT-Creation-Date: 2013-09-14 16:42\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -980,7 +980,6 @@ msgstr ""
 # 4b175667fc48435eae77528ae71707ab
 # b9a4a7a973ff43d2a090ab337846b87b
 #: ../../source/docs/user_manual/print_composer/print_composer.rst:346
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:342
 msgid "Grid"
 msgstr ""
 
@@ -2124,129 +2123,4 @@ msgstr ""
 msgid ""
 "By default, the composer manager searches for user templates in ~/.qgis2/"
 "composer_template."
-msgstr ""
-
-# d125ed3555024d14aa868f4c76dd7d7e
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:9
-msgid "Create_Maps"
-msgstr ""
-
-# a682c5596e104bc5975451bfe5584127
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:11
-msgid "Layout_Maps"
-msgstr ""
-
-# 303ffc2ff8e94acb8366735f5c825063
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:13
-msgid "Compose_Maps"
-msgstr ""
-
-# b1c81948630f48e9b727e5c8cc7cabd3
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:32
-msgid "print_composer"
-msgstr ""
-
-# b1c81948630f48e9b727e5c8cc7cabd3
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:32
-msgid "tools"
-msgstr ""
-
-# e65b39b2d07748b1b7e42c9bd78d4e3c
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:83
-msgid "Composer_Template"
-msgstr ""
-
-# f580b43719944207ad6036abe5fac5ec
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:85
-msgid "Map_Template"
-msgstr ""
-
-# b89b0f0d626e4dd4ba51deabdb6d1320
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:208
-msgid "Rendering_Mode"
-msgstr ""
-
-# b9a4a7a973ff43d2a090ab337846b87b
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:342
-msgid "Map_Grid"
-msgstr ""
-
-# 997043c4704740eb97025d405b74f1c6
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:480
-msgid "Picture_database"
-msgstr ""
-
-# fec549df8d05418589cfbd5cee82b267
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:482
-msgid "Rotated_North_Arrow"
-msgstr ""
-
-# 79dc3b92b7c94aa68f612ac002ce95a5
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:527
-msgid "Map_Legend"
-msgstr ""
-
-# eccda50ffbf649cca6901b966b7da78f
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:629
-msgid "Scalebar"
-msgstr ""
-
-# eccda50ffbf649cca6901b966b7da78f
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:629
-msgid "Map_Scalebar"
-msgstr ""
-
-# e646f5768df24c6e889ffaa66941a0d6
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:781
-msgid "Attribute_Table"
-msgstr ""
-
-# 83d5413f716443b9ad13732caca48c88
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:843
-msgid "HTML_Frame"
-msgstr ""
-
-# 3c6f3d604b9446d2b438a9d8be44c0ba
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:879
-msgid "Elements_Alignment"
-msgstr ""
-
-# 38dfe4ec79df4f26bfa4f754972c4652
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:908
-msgid "Revert_Layout_Actions"
-msgstr ""
-
-# cb4b29b49d164a0e8487f8805c11507e
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:933
-msgid "Atlas_Generation"
-msgstr ""
-
-# 63b45a3cd04e4f51843b2b06b455cf06
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:1008
-msgid "Printing"
-msgstr ""
-
-# 63b45a3cd04e4f51843b2b06b455cf06
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:1008
-msgid "Export_Map"
-msgstr ""
-
-# 4a44cead537249f79049ae5203dd819f
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:1029
-msgid "Export_as_image"
-msgstr ""
-
-# 4a44cead537249f79049ae5203dd819f
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:1029
-msgid "Export_as_PDF"
-msgstr ""
-
-# 4a44cead537249f79049ae5203dd819f
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:1029
-msgid "Export_as_SVG"
-msgstr ""
-
-# ca8405bf2d3f4321814590ad521f625b
-#: ../../source/docs/user_manual/print_composer/print_composer.rst:1051
-msgid "Composer_Manager"
 msgstr ""

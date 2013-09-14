@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGIS User Guide 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-26 14:10\n"
+"POT-Creation-Date: 2013-09-14 16:42\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -498,54 +498,4 @@ msgid ""
 "Data Provider plugins are registered automatically by QGIS at startup. They "
 "are not managed by the Plugin Manager but used behind the scenes when a data "
 "type is added as a layer in QGIS."
-msgstr ""
-
-# 906c6ec49c6b4eb58a5323cd7df58bb0
-# a1d5d8b5a1384d658c705a585bb50a31
-# 1652a74e00ce4dc5a0808bc09ed25a1d
-# 9f7bde34492e433b90f878e9671dab37
-# 1990bada9830481c9cd668bded0fee45
-# a46b776c6ca743398e44f2a6a34d4621
-#: ../../source/docs/user_manual/plugins/plugins.rst:9
-#: ../../source/docs/user_manual/plugins/plugins.rst:22
-#: ../../source/docs/user_manual/plugins/plugins.rst:56
-#: ../../source/docs/user_manual/plugins/plugins.rst:158
-#: ../../source/docs/user_manual/plugins/plugins.rst:160
-#: ../../source/docs/user_manual/plugins/plugins.rst:162
-msgid "plugins"
-msgstr ""
-
-# a1d5d8b5a1384d658c705a585bb50a31
-#: ../../source/docs/user_manual/plugins/plugins.rst:22
-msgid "types"
-msgstr ""
-
-# 1652a74e00ce4dc5a0808bc09ed25a1d
-#: ../../source/docs/user_manual/plugins/plugins.rst:56
-msgid "manager"
-msgstr ""
-
-# 070a63be42564e3790fb01b1926dd66f
-#: ../../source/docs/user_manual/plugins/plugins.rst:83
-msgid "crashes"
-msgstr ""
-
-# 9f7bde34492e433b90f878e9671dab37
-#: ../../source/docs/user_manual/plugins/plugins.rst:158
-msgid "installing"
-msgstr ""
-
-# 1990bada9830481c9cd668bded0fee45
-#: ../../source/docs/user_manual/plugins/plugins.rst:160
-msgid "Python Plugin Installer"
-msgstr ""
-
-# a46b776c6ca743398e44f2a6a34d4621
-#: ../../source/docs/user_manual/plugins/plugins.rst:162
-msgid "upgrading"
-msgstr ""
-
-# 5b77db51249b4abe9bd84a6c701a6164
-#: ../../source/docs/user_manual/plugins/plugins.rst:288
-msgid "data providers"
 msgstr ""

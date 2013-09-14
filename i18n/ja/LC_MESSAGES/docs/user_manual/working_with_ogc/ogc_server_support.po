@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGIS User Guide 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-26 14:10\n"
+"POT-Creation-Date: 2013-09-14 16:42\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -140,49 +140,95 @@ msgstr ""
 msgid "Creating a WMS/WFS from a QGIS project"
 msgstr ""
 
-# e25df52f12834b1d92c56c7acd619958
+# 6a617ab65d58462488d40a8b27a3b66f
 #: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:91
 msgid ""
-"To provide a new qgis wms/wfs server we have to create a qgis project file "
-"with some data. Here we use the 'alaska' shapefile from the "
-"qgis_sample_dataset. Define the colors and styles of the layers in QGIS and "
-"define the project CRS, if not already done."
+"To provide a new QGIS Server WMS or WFS we have to create a QGIS project "
+"file with some data. Here we use the 'alaska' shapefile from the QGIS Sample "
+"Dataset. Define the colors and styles of the layers in QGIS and define the "
+"project CRS, if not already done."
 msgstr ""
 
-# b24621bea44247bea3bfdd87b2d698df
+# f477b947e37e42eb9212b94f334c2289
 #: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:106
-msgid "Definitions for a qgis project WMS/WFS server (KDE)"
+msgid "Definitions for a QGIS Server WMS/WFS project (KDE)"
 msgstr ""
 
-# c34fef0f299742a38968082d785bbd83
+# abc0cb0785684a55b39d88ec0be7e8b6
 #: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:108
 msgid ""
-"Then open the ``OWS Server`` tab in the menu :menuselection:`Settings --> "
-"Project Properties` and define the general fields under 'Service "
-"Capabilities'. For ``WMS Capabilities`` define 'Coordinate System "
-"Restrictions' and 'Advertised Extend'. If you want to exclude any layer or "
-"layer group from being published by the OWS, check |checkbox| :guilabel:"
-"`Exclude Layers` and click the |mActionSignPlus| button below. This opens "
-"the :guilabel:`Select restricted layers and groups` dialog which allows you "
-"to choose the layers and groups that you don't want to be published. Use the "
-"shift or control key if you want to select multiple entries at once. If you "
-"wish you can check |checkbox| :guilabel:`Add WKT geometry to feature info "
-"response`. This will include in the GetFeatureInfo response the geometries "
-"of the features in a text format. If you want QGIS Server to advertise "
-"specific request URLs in the WMS GetCapabilities response, enter the "
-"corresponding URL in the :guilabel:`Advertised URL` field. Furthermore you "
-"can restrict the maximum size of the maps returned by the GetMap request by "
-"entering the maximum width and height into the respective fields under :"
-"guilabel:`Maximums for GetMap request`. In the :guilabel:`WFS capabilities` "
-"area you can select the layers that you want to provide as WFS, and specify "
-"if they will allow the update, insert and delete operations. If you enter a "
-"URL in the :guilabel:`Advertised URL` field of the :guilabel:`WFS "
-"capabilities` section, QGIS Server will advertise this specific URL in the "
-"WFS GetCapabilities response."
+"Then go to the :guilabel:`OWS Server` menu of the :menuselection:`Project --"
+"> Project Properties` dialog and give some information about the OWS in the "
+"fields under :guilabel:`Service Capabilities`. This will appear in the "
+"GetCapabilities response of the WMS or WFS. If you don't check |checkbox| :"
+"guilabel:`Service capabilities` QGIS Server will use the information given "
+"in the :file:`wms_metadata.xml` file located in the :file:`cgi-bin` folder."
+msgstr ""
+
+# bcb81e7d8a054f93bdf52d73c5a3751c
+#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:117
+msgid ""
+"In the :guilabel:`WMS capabilities` section you can define the extent "
+"advertised in the WMS GetCapabilities response by entering the minimum and "
+"maximum X and Y values in the fields under :guilabel:`Advertised extent`. "
+"Clicking :guilabel:`Use Current Canvas Extent` sets these values to the "
+"extent currently displayed in the QGIS map canvas. By checking |checkbox| :"
+"guilabel:`CRS restrictions` you can restrict in which coordinate reference "
+"systems (CRS) QGIS Server will offer to render maps. Use the |"
+"mActionSignPlus| button below to select those CRS from the Coordinate "
+"Reference System Selector, or click :guilabel:`Used` to add the CRS used in "
+"the QGIS project to the list."
+msgstr ""
+
+# 1be6ba344900458aa1d48d4b5804047d
+#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:130
+msgid ""
+"If you have print composers defined in your project they will be listed in "
+"the GetCapabilities response, and they can be used by the GetPrint request "
+"to create prints, using one of the print composer layouts as a template. "
+"This is a QGIS specific extension to the WMS 1.3.0 specification. If you "
+"want to exclude any print composer from being published by the WMS, check |"
+"checkbox| :guilabel:`Exclude composers` and click the |mActionSignPlus| "
+"button below. Then select a print composer from the :guilabel:`Select print "
+"composer` dialog in order to add it to the excluded composers list."
+msgstr ""
+
+# 96586ece8a8d4e63b12a5ae0ba0e0c22
+#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:140
+msgid ""
+"If you want to exclude any layer or layer group from being published by the "
+"WMS, check |checkbox| :guilabel:`Exclude Layers` and click the |"
+"mActionSignPlus| button below. This opens the :guilabel:`Select restricted "
+"layers and groups` dialog which allows you to choose the layers and groups "
+"that you don't want to be published. Use the shift or control key if you "
+"want to select multiple entries at once."
+msgstr ""
+
+# 0d03f296e55247c8ba9e1d94351a798e
+#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:147
+msgid ""
+"If you wish you can check |checkbox| :guilabel:`Add WKT geometry to feature "
+"info response`. This will include in the GetFeatureInfo response the "
+"geometries of the features in a text format. If you want QGIS Server to "
+"advertise specific request URLs in the WMS GetCapabilities response, enter "
+"the corresponding URL in the :guilabel:`Advertised URL` field. Furthermore "
+"you can restrict the maximum size of the maps returned by the GetMap request "
+"by entering the maximum width and height into the respective fields under :"
+"guilabel:`Maximums for GetMap request`."
+msgstr ""
+
+# 05880de7d8da43c48bae9fdbf2e4be8e
+#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:158
+msgid ""
+"In the :guilabel:`WFS capabilities` area you can select the layers that you "
+"want to provide as WFS, and specify if they will allow the update, insert "
+"and delete operations. If you enter a URL in the :guilabel:`Advertised URL` "
+"field of the :guilabel:`WFS capabilities` section, QGIS Server will "
+"advertise this specific URL in the WFS GetCapabilities response."
 msgstr ""
 
 # 3653706277c94a449b57af7163cdd595
-#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:135
+#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:165
 msgid ""
 "Now save the session in a project file :file:`alaska.qgs`. To provide the "
 "project as a WMS/WFS, we create a new folder ``/usr/lib/cgi-bin/project`` "
@@ -191,19 +237,19 @@ msgid ""
 msgstr ""
 
 # 42a6ce3a5805413eaf5bd895b37e4c9d
-#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:141
+#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:171
 msgid ""
 "Now we test our project WMS and WFS, add the WMS and WFS as described in :"
 "ref:`ogc-wms-layers` and :ref:`ogc-wfs` to QGIS and load the WMS. The URL is:"
 msgstr ""
 
 # a8b3d74190274b32b12c4c1810ebc672
-#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:149
+#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:179
 msgid "Fine tuning your OWS"
 msgstr ""
 
 # 1c56a99c7abe459596c59e607f5b4047
-#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:151
+#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:181
 msgid ""
 "For vector layers, the :guilabel:`Fields` menu of the :menuselection:`Layer "
 "--> Properties` dialog allows you to define for each attribute if it will be "
@@ -213,7 +259,7 @@ msgid ""
 msgstr ""
 
 # 19c1bdce991c457190be79e5465e4243
-#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:158
+#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:188
 msgid ""
 "You can overlay watermarks over the maps produced by your WMS by adding text "
 "annotations or SVG annotations to the project file. See :ref:"
@@ -229,93 +275,38 @@ msgid ""
 msgstr ""
 
 # 9504424eafe84ba3818042962bc7e21a
-#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:172
+#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:202
 msgid "Extra parameters supported by the WMS GetMap request"
 msgstr ""
 
-# bee28508c8cc42788c82c7db90548b4c
-#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:174
+# 6801a97123804cbfb927f14a0fd74679
+#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:204
 msgid ""
-"Concerning the WMS GetMap request, QGIS Server accepts a couple of extra "
-"parameters in addition to the standard parameters according to the OCG WMS "
-"1.3 specification:"
+"In the WMS GetMap request QGIS Server accepts a couple of extra parameters "
+"in addition to the standard parameters according to the OCG WMS 1.3.0 "
+"specification:"
 msgstr ""
 
-# 60d97f3f14ba4cc9b83d5f1884cafa60
-#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:178
+# b963ffb7af28442095768a730fee1f7c
+#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:208
 msgid ""
 "**MAP** parameter: Similar to MapServer, the ``MAP`` parameter can be used "
 "to specify the path to the QGIS project file. You can specify an absolute "
-"path or a path relative to the location of the server executable "
-"(qgis_mapserv.fcgi). If not specified, QGIS Server searches for .qgs files "
-"in the directory where the server executable is located. Example: ``http://"
-"localhost/cgi-bin/qgis_mapserv.fcgi?REQUEST=GetMap&MAP=/home/qgis/mymap."
-"qgs&...``"
+"path or a path relative to the location of the server executable (:file:"
+"`qgis_mapserv.fcgi`). If not specified, QGIS Server searches for .qgs files "
+"in the directory where the server executable is located. Example::"
 msgstr ""
 
-# f6aa4fbac7404d5881f244b1d0a1cc90
-#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:185
+# 200f969cc65544b8bbbe6517b45f23ac
+#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:216
 msgid ""
 "**DPI** parameter: The ``DPI`` parameter can be used to specify the "
-"requested output resolution. Example: ``http://localhost/cgi-bin/"
-"qgis_mapserv.fcgi?REQUEST=GetMap&DPI=300&...``"
+"requested output resolution. Example::"
 msgstr ""
 
-# d547e7106c3741168b843bde192c8b87
-#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:188
+# 31cc5589bd4b403ea8b024ac436f7969
+#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:220
 msgid ""
 "**OPACITIES** parameter: Opacity can be set on layer or group level. Allowed "
-"values range from 0 (fully transparent) to 255 (fully opaque). Example: "
-"``http://localhost/cgi-bin/qgis_mapserv.fcgi?REQUEST=GetMap&LAYERS=mylayer1,"
-"mylayer2&OPACITIES=125,200&...``"
-msgstr ""
-
-# ec0cc872e3e34e2cb76f2c4360fa6ec6
-#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:9
-msgid "QGIS_Server"
-msgstr ""
-
-# ec0cc872e3e34e2cb76f2c4360fa6ec6
-#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:9
-msgid "FastCGI"
-msgstr ""
-
-# ec0cc872e3e34e2cb76f2c4360fa6ec6
-#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:9
-msgid "CGI"
-msgstr ""
-
-# ec0cc872e3e34e2cb76f2c4360fa6ec6
-#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:9
-msgid "Common_Gateway_Interface"
-msgstr ""
-
-# 9888cfb64de24850b93c80cea92b7ab3
-#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:22
-msgid "SLD"
-msgstr ""
-
-# 9888cfb64de24850b93c80cea92b7ab3
-#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:22
-msgid "SLD/SE"
-msgstr ""
-
-# 9dddc22e65af4d90a28dfff5519f671d
-#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:30
-msgid "Publish_to_Web_plugin"
-msgstr ""
-
-# e45ceb99afe44a07959de0dc5008cf05
-#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:52
-msgid "apache"
-msgstr ""
-
-# e45ceb99afe44a07959de0dc5008cf05
-#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:52
-msgid "apache2"
-msgstr ""
-
-# e45ceb99afe44a07959de0dc5008cf05
-#: ../../source/docs/user_manual/working_with_ogc/ogc_server_support.rst:52
-msgid "Debian_Squeeze"
+"values range from 0 (fully transparent) to 255 (fully opaque). Example::"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGIS Documentation Project 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-26 14:10\n"
+"POT-Creation-Date: 2013-09-14 16:42\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -750,17 +750,6 @@ msgstr ""
 "ます (セクション :ref:`label_printcomposer` 参照)."
 
 # a02ae4593e964131836218620a85b4ba
-#: ../../source/docs/user_manual/introduction/getting_started.rst:193
 #, fuzzy
-msgid "command line options"
-msgstr "コマンドラインオプション"
-
-# d2676b7c21344b348052b95dd5d3989c
-#: ../../source/docs/user_manual/introduction/getting_started.rst:354
-msgid "output save as image"
-msgstr ""
-
-# 91cb85862cfb49f9bab09e2f140e6cad
-#: ../../source/docs/user_manual/introduction/getting_started.rst:356
-msgid "print composer quick print"
-msgstr ""
+#~ msgid "command line options"
+#~ msgstr "コマンドラインオプション"

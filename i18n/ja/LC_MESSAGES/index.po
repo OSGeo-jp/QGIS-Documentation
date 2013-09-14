@@ -16,12 +16,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Language: ja_JP\n"
+"X-Source-Language: C\n"
 
 # f405cc8890134c43bc214c89d2d3159c
 #: ../../source/index.rst:21
-#, fuzzy
 msgid "Welcome to the QGIS project!"
-msgstr "Quantum GIS プロジェクトへようこそ"
+msgstr "QGIS プロジェクトへようこそ!"
 
 # 756e5bd196fc4b57b2ebd7d9773a98ed
 #: ../../source/index.rst:26
@@ -30,12 +32,18 @@ msgid ""
 "user friendly Open Source Geographic Information System (GIS) licensed under "
 "the GNU General Public License. You can use the software provided by this "
 "project to create, visualize, analyze and share geospatial data. QGIS is "
-"Free and Open Source Software (FOSS) published under the `GPL V2 <http://www."
-"gnu.org/licenses/gpl-2.0.html>`_ or greater license. As such it is "
-"completely Free to use (see the download link below to download your free "
+"Free and Open Source Software (FOSS) published under the `GPL V2 "
+"<http://www.gnu.org/licenses/gpl-2.0.html>`_ or greater license. As such it "
+"is completely Free to use (see the download link below to download your free "
 "copy) - you can share it with others and adapt and modify according to your "
 "needs."
 msgstr ""
+"QGIS は成熟した(`Gary Sherman <http://geoapt.com/>`_ "
+"により2002年に開始されています!)、ユーザフレンドリなオープンソースの地理情報システム(GIS)で、GNU General Public "
+"Licenseが適用されます。あなたは、このプロジェクトにより提供されたソフトウェアを使用して、地理空間データの作成、可視化、解析、そして共有を行うことが可能です。QGISは "
+"Free and Open Source Software (FOSS)により、 `GPL V2 "
+"<http://www.gnu.org/licenses/gpl-2.0.html>` "
+"かそれ以上のライセンスで提供されています。QGISの使用は完全に自由なので(あなたの自由なコピーをダウンロードする場合は、以下のダウンロードリンクを参照してください)、あなたは他の人と共有したり、あなたのニーズに従って、改変や修正を行うことが可能です。"
 
 # 85b0ef770d33487ea851aff7dc2274c7
 #: ../../source/index.rst:36
@@ -53,6 +61,12 @@ msgid ""
 "funds they would have otherwise allocated to purchasing expensive "
 "proprietary GIS software."
 msgstr ""
+"QGIS "
+"は多くの熱心な貢献者の大変な作業の賜物で、彼らはドキュメントの記述、テキストの翻訳、バグの報告、アイコンの描画、他のユーザの手助け、このウェブサイトの構築、そしてもちろん、多くのC++とPythonのコードを記述してきました。これらの貢献者は、全ての人のための偉大でフリーなGISを構築するというビジョンを実現化するために、時間とエネルギーを寄付してきました。我々はまた、多くの貢献者 "
+"- "
+"大小様々な企業、地域または国の行政機関、国際的な機関など、我々の提供するプラットフォームに出資し、このプロジェクトに何らかの寄与を与えることを実現している全ての人々 "
+"- "
+"による財政的なサポートとスポンサーによる開発の利益を得ています。彼らは、全ての人のためにQGISをより良くすることにより、恩恵を提供する一方で、同時に高価な商用GISソフトウェアを購入するために別途割り当てる予定だった資金を削減しています。"
 
 # 4d4c6fca3bf74bfa961382089428738c
 #: ../../source/index.rst:49
@@ -60,63 +74,68 @@ msgid ""
 "QGIS is an official project of the `Open Source Geospatial Foundation "
 "(OSGeo) <http://osgeo.org/>`_. It runs on Linux, Unix, Mac OSX, Windows and "
 "Android and supports many vector and raster data formats. QGIS is built on "
-"top of many other great FOSS projects including `Qt <http://qt-project.org/"
-">`_, `GDAL <http://www.gdal.org/>`_, `PostGIS <http://postgis.net/>`_, "
-"`Proj4 <http://trac.osgeo.org/proj/>`_, `Spatialite <http://www.gaia-gis.it/"
-"gaia-sins/>`_ and many others."
+"top of many other great FOSS projects including `Qt "
+"<http://qt-project.org/>`_, `GDAL <http://www.gdal.org/>`_, `PostGIS "
+"<http://postgis.net/>`_, `Proj4 <http://trac.osgeo.org/proj/>`_, `Spatialite "
+"<http://www.gaia-gis.it/gaia-sins/>`_ and many others."
 msgstr ""
+"QGISは `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org/>`_ "
+"の公式プロジェクトのひとつです。このソフトウェアは、Linux、Unix、Mac "
+"OSX、WindowsとAndroid上で動作し、多くのベクタ、ラスタのデータフォーマットをサポートします。QGISは多くの他のすばらしい FOSS "
+"プロジェクト `Qt <http://qt-project.org/>`_ 、 `GDAL <http://www.gdal.org/>`_ 、 "
+"`PostGIS <http://postgis.net/>`_ 、 `Proj4 <http://trac.osgeo.org/proj/>`_ 、 "
+"`Spatialite <http://www.gaia-gis.it/gaia-sins/>`_ などの上で構築されています。"
 
 # beecda0cf3e7410bb0e10c08d707629f
 #: ../../source/index.rst:72
 msgid "Latest Version"
-msgstr ""
+msgstr "最新バージョン"
 
 # 16d678e27246459d916df0fb06c747b3
 # 0e6250aca24942eea8f447d43e022dc4
 #: ../../source/index.rst:76 ../../source/index.rst:95
 msgid "|carouselimage1|"
-msgstr ""
+msgstr "|carouselimage1|"
 
 # 53a9aded87c640c1980be48fa220aa73
 #: ../../source/index.rst:80
 msgid "The latest release of QGIS is 2.0"
-msgstr ""
+msgstr "最新のQGISのリリースは 2.0 です"
 
 # 8e920443bd1e49349ac8eb9c2ab2c125
 #: ../../source/index.rst:84
-#, fuzzy
 msgid ""
-"`View the release notes <http://www.qgis .org/en/about-qgis/qgis-"
-"releases/149-qgis-18-release.html>`_"
+"`View the release notes <http://www.qgis "
+".org/en/about-qgis/qgis-releases/149-qgis-18-release.html>`_"
 msgstr ""
-"最新リリースは QGIS 1.8.0 で`release annoucement をこちらで読めます <http://"
-"www.qgis.org/en/about-qgis/qgis-releases/149-qgis-18-release.html>`_"
+"`リリースノートを見る <http://www.qgis "
+".org/en/about-qgis/qgis-releases/149-qgis-18-release.html>`_"
 
 # 96f74c5facea46f4bf023706dda52f12
 #: ../../source/index.rst:91
 msgid "QGIS Case studies"
-msgstr ""
+msgstr "QGIS ケーススタディ"
 
 # cb5d903b1dda467199aba00046de1ebf
 #: ../../source/index.rst:99
 msgid "Have you seen our real world case studies?"
-msgstr ""
+msgstr "あなたは私たちの現実世界でのケーススタディを見たことがありますか？"
 
 # 8077449b901b40e98602998e4238afe2
 #: ../../source/index.rst:103
 msgid ":ref:`Show the case studies <QGIS-case-studies>`"
-msgstr ""
+msgstr ":ref:`ケーススタディを表示する <QGIS-case-studies>`"
 
 # cec20fb3a37a4f3f8469bf31e1ddeed3
 #: ../../source/index.rst:113
 msgid "Download"
-msgstr ""
+msgstr "ダウンロード"
 
 # 9acbff44baeb4b298472405b3d40133a
 #: ../../source/index.rst:115
 msgid ""
 "You can download the latest version of QGIS :ref:`here <QGIS-download>`."
-msgstr ""
+msgstr "QGISの最新バージョンは :ref:`こちら <QGIS-download>` からダウンロード可能です。"
 
 # 3295e6ff3f024f14b39523e6a7da14e3
 #: ../../source/index.rst:118
@@ -126,7 +145,7 @@ msgstr "|qgissplash|"
 # e35a8c34f4bc4fbfa0c862be28265be2
 #: ../../source/index.rst:122
 msgid "User Manual"
-msgstr ""
+msgstr "ユーザマニュアル"
 
 # 2889c5ef17b3460db5a50349df69ad64
 #: ../../source/index.rst:124
@@ -134,6 +153,8 @@ msgid ""
 "The user manual for the stable version can be found here: `QGIS Manual "
 "stable version (1.8) <http://docs.qgis.org/1.8/html/en/>`_."
 msgstr ""
+"安定バージョンのユーザマニュアルはこちらを参照してください: `QGIS マニュアル安定バージョン (1.8) "
+"<http://docs.qgis.org/1.8/html/ja/>`_ 。"
 
 # 54863615a0c74e979696e2251be1bfdb
 #: ../../source/index.rst:127
@@ -141,16 +162,18 @@ msgid ""
 "Please go to :ref:`The QGIS User Manual <QGIS-manual-index-reference>` to "
 "see the manual for current development version."
 msgstr ""
+"現在の開発バージョンのマニュアルを見る場合は :ref:`QGIS ユーザマニュアル <QGIS-manual-index-reference>` "
+"を参照してください。"
 
 # 51d7be52164b46d0bf4a33cf279015ce
 #: ../../source/index.rst:131
 msgid "Documentation"
-msgstr ""
+msgstr "ドキュメンテーション"
 
 # ed25ce0032094edf804b1698fcfe3958
 #: ../../source/index.rst:133
 msgid "Other docs can be found on the :ref:`Documenation site <docs/index>`"
-msgstr ""
+msgstr "その他のドキュメントは、 :ref:`ドキュメンテーションサイト <docs/index>` を参照してください"
 
 # c3adcba009c14cfab658c80f33c9dc15
 #~ msgid ""
@@ -160,8 +183,7 @@ msgstr ""
 #~ "runs on Linux, Unix, Mac OSX, Windows and Android and supports numerous "
 #~ "vector, raster, and database formats and functionalities."
 #~ msgstr ""
-#~ "Quantum GIS (QGIS) はユーザフレンドリなオープンソースの地理情報システム"
-#~ "(GIS)です.このシステムはGNU General Public Licenseが適用されます. QGISは "
-#~ "Open Source Geospatial Foundation (OSGeo)の公式プロジェクトのひとつです.こ"
-#~ "のソフトウェアはLinux, Unix, Mac OSX, Windows とAndroid上で動作して多数の"
-#~ "ベクタ,ラスタ,データベースと機能をサポートしています."
+#~ "Quantum GIS (QGIS) はユーザフレンドリなオープンソースの地理情報システム(GIS)です.このシステムはGNU General "
+#~ "Public Licenseが適用されます. QGISは Open Source Geospatial Foundation "
+#~ "(OSGeo)の公式プロジェクトのひとつです.このソフトウェアはLinux, Unix, Mac OSX, Windows "
+#~ "とAndroid上で動作して多数のベクタ,ラスタ,データベースと機能をサポートしています."

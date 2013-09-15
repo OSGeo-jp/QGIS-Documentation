@@ -17,24 +17,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Source-Language: C\n"
 
 # 21b49943ac954190b3426ff585fb2617
 #: ../../source/docs/index.rst:22
-#, fuzzy
 msgid "Documentation"
-msgstr "ドキュメンテーションガイドライン"
+msgstr "ドキュメンテーション"
 
 # d840544ce3124a4b8467d3591b59d2e4
 #: ../../source/docs/index.rst:24
 msgid ""
 "QGIS has a lot of documentation, partly translated. Please have a look into "
 "one of the documents below."
-msgstr ""
+msgstr "QGIS には多くのドキュメンテーションがあり、一部は翻訳されています。以下のドキュメントのいずれかを見てください。"
 
 # b5adbffb0e0749888c91b1b238fcd043
 #: ../../source/docs/index.rst:27
 msgid "Or do a text search."
-msgstr ""
+msgstr "またはテキスト検索を行ってください。"
 
 # 433903450a884f5e91a0b524056d39c3
 #: ../../source/docs/index.rst:35
@@ -43,15 +44,13 @@ msgstr "ユーザマニュアル"
 
 # 5db4b846d26e41768baee7264f93beab
 #: ../../source/docs/index.rst:37
-#, fuzzy
 msgid ""
 ":doc:`The QGIS User Manual <user_manual/preamble/preamble>`. The main "
 "project. The User manual should contain all information needed for an user "
 "to get started."
 msgstr ""
-":ref:`The QGIS User Manual <QGIS-manual-index-reference>`. メインプロジェクト"
-"です. ユーザマニュアルはユーザがQGISを利用し始めるために必要な全ての情報が含"
-"まれるべきです."
+":doc:`QGIS ユーザマニュアル "
+"<QGIS-manual-index-reference>`。メインプロジェクトです。ユーザマニュアルはユーザがQGISを利用し始めるために必要な全ての情報が含まれるべきです。"
 
 # 174947c5cc0c4e33b092b3b8232c77b1
 #: ../../source/docs/index.rst:40
@@ -70,9 +69,8 @@ msgid ""
 "is intended to work both as a tutorial and a reference guide for peoples "
 "that want to learn QGIS Python API."
 msgstr ""
-":ref:`PyQGIS Developer Cookbook <PyQGIS-Developer-Cookbook>`. このクックブッ"
-"クはQGIS Python APIを学びたい人にとってのチュートリアルとリファレンスガイドの"
-"両方に利用できるように作られています."
+":ref:`PyQGIS 開発者クックブック <PyQGIS-Developer-Cookbook>`。このクックブックはQGIS Python "
+"APIを学びたい人にとってのチュートリアルとリファレンスガイドの両方に利用できるように作られています。"
 
 # d7113e688ce3409cb4ba7d40d9e81be2
 #: ../../source/docs/index.rst:52
@@ -81,14 +79,12 @@ msgstr "やさしいGIS入門"
 
 # 05e6412a7200456f9dec46285ee7455b
 #: ../../source/docs/index.rst:54
-#, fuzzy
 msgid ""
 ":doc:`A Gentle Introduction to GIS <gentle_gis_introduction/00_preamble>`. "
 "This introduction to GIS is an introductory text to get your feet wet in GIS"
 msgstr ""
-":ref:`A Gentle Introduction to GIS <A-Gentle-Introduction-To-GIS-"
-"reference>`. このGIS入門テキストはあなたがGISの世界に足を踏み入れるための入門"
-"テキストです"
+":doc:`やさしいGIS入門 "
+"<gentle_gis_introduction/00_preamble>`。このGIS入門テキストはあなたがGISの世界に足を踏み入れるための入門テキストです"
 
 # 21b49943ac954190b3426ff585fb2617
 #: ../../source/docs/index.rst:59
@@ -102,18 +98,15 @@ msgid ""
 "These guidelines are there to let all QGIS documenation have the same look "
 "and feel."
 msgstr ""
-":ref:`The QGIS Documentation Guidelines <QGIS-documentation-guidelines>`. こ"
-"れらのガイドラインはすべてのQGISドキュメントが同じような体裁で作られるために"
-"作成されています."
+":ref:`QGIS ドキュメンテーションガイドライン "
+"<QGIS-documentation-guidelines>`。これらのガイドラインはすべてのQGISドキュメントが同じような体裁で作られるために作成されています。"
 
 # 3365e751953d4834afa38203ab84d4f9
 #: ../../source/docs/index.rst:64
 msgid ""
 "Before contributing to the documenation, please read and understand those "
 "guidelines"
-msgstr ""
-"ドキュメントをコントリビュートする前に是非これらのガイドラインを読んで理解し"
-"て下さい"
+msgstr "ドキュメントをコントリビュートする前に是非これらのガイドラインを読んで理解して下さい"
 
 # 679e2f5bccf54272bc939ef6a9ec1f0e
 #: ../../source/docs/index.rst:69
@@ -126,8 +119,8 @@ msgid ""
 ":ref:`QGIS Governance <QGIS-Governance>`. This document describes official "
 "QGIS governance, bylaws, procedures etc."
 msgstr ""
-":ref:`QGIS Governance <QGIS-Governance>`. このドキュメントではQGISの公式なガ"
-"バナンス,取決め,手順等について記述しています."
+":ref:`QGIS ガバナンス "
+"<QGIS-Governance>`。このドキュメントではQGISの公式なガバナンス、取決め、手順等について記述しています。"
 
 # 3c77f078e520460aaddbb563aa88dcbf
 #~ msgid "Welcome to the QGIS Documentation"
@@ -137,14 +130,10 @@ msgstr ""
 #~ msgid ""
 #~ "Currently we are building a infrastructure to more easily maintain and "
 #~ "translate various QGIS documentation projects."
-#~ msgstr ""
-#~ "現在私たちは様々なQGISドキュメントプロジェクトでさらに簡単に保守や翻訳がで"
-#~ "きる基盤を作成しています."
+#~ msgstr "現在私たちは様々なQGISドキュメントプロジェクトでさらに簡単に保守や翻訳ができる基盤を作成しています."
 
 # 850e78a0649e4ba1a7b5336ba0295c19
 #~ msgid ""
 #~ "All documentation is written in RST, saved in Github, and po/pot "
 #~ "translatable."
-#~ msgstr ""
-#~ "すべてのドキュメントはRSTで記述されGithubに保存されています.そして po/pot"
-#~ "に変換可能です."
+#~ msgstr "すべてのドキュメントはRSTで記述されGithubに保存されています.そして po/potに変換可能です."
